@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <main className='bg-slate-300/20'>
+    <main className='bg-slate-300/20 lg:h-full'>
       <Router>
         <Navbar />
         <Routes>
